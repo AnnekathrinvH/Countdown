@@ -1,5 +1,5 @@
 var count = require('./countdown').Countdown;
-var countdown = new count(10);
+var countdown = new Count(10);
 
 countdown.on('secondElapsed', function(n) {
     console.log(n);
